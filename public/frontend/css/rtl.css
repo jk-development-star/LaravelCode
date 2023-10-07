@@ -1,0 +1,139 @@
+.main-nav,
+.search-section,
+.popular-category,
+.listing,
+.footer-area,
+.page-banner,
+.page-content,
+.listing-single-banner {
+    direction: rtl!important;
+    text-align: right!important;
+}
+
+.dropdown-toggle::after {
+    margin-right: .255em;
+    margin-left: auto!important;
+}
+
+.main-nav nav .navbar-nav .nav-item .dropdown-menu {
+    left: auto!important;
+    right: 0;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+    text-align: right;
+}
+
+.search-section .input-box input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 6px!important;
+    border-bottom-right-radius: 6px!important;
+}
+
+.search-section .input-group-append button {
+    border-top-left-radius: 6px!important;
+    border-bottom-left-radius: 6px!important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.select2-container--bootstrap .select2-results__option {
+    text-align: right;
+}
+
+.listing .listing-item .photo .featured-text {
+    right: auto;
+    left: -30px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.listing .listing-item .photo .category {
+    left: auto;
+    right: 10px;
+}
+.listing .listing-item .photo .wishlist {
+    right: auto;
+    left: 10px;
+}
+
+.footer-item ul.fmain li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.footer-item ul.fmain li:before {
+    content: '\f0a5';
+    left: auto;
+    right: 0;
+}
+
+.footer-contact ul li {
+    padding-left: 0;
+    padding-right: 26px;
+}
+.footer-contact ul li:nth-child(1):before,
+.footer-contact ul li:nth-child(2):before,
+.footer-contact ul li:nth-child(3):before {
+    left: auto;
+    right: 0;
+}
+.copyright {
+    text-align: right;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-right: .5rem;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+    padding-left: .5rem;
+    padding-right: 0;
+}
+.form-check {
+    padding-right: 1.25rem;
+    padding-left: 0;
+}
+.form-check-input {
+    margin-left: 0;
+    margin-right: -1.25rem;
+}
+.pricing .card-price,
+td.website,
+.website-rtl {
+    direction: ltr!important;
+}
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem -1rem;
+    margin-right: auto;
+}
+
+.fa-angle-right:before {
+    content: '\f104';
+}
+.listing-sidebar .ls-widget .agent .text {
+    margin-left: -4px;
+    margin-right: 0;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+.faq .panel-group .panel-heading a:after {
+    left: 20px;
+    right: auto;
+}
+.sidebar .widget .type-1 ul li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.sidebar .widget .type-1 ul li:before {
+    content: '\f104';
+    right: 0;
+    left: auto;
+}
+.text-md-right {
+    text-align: left!important;
+}
+.pl_30 {
+    padding-right: 30px!important;
+}

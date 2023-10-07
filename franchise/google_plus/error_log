@@ -1,0 +1,16 @@
+[28-Oct-2017 04:56:06 America/Chicago] PHP Parse error:  syntax error, unexpected ''; ' (T_CONSTANT_ENCAPSED_STRING) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 9
+[28-Oct-2017 04:56:12 America/Chicago] PHP Parse error:  syntax error, unexpected ''; ' (T_CONSTANT_ENCAPSED_STRING) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 9
+[28-Oct-2017 04:56:33 America/Chicago] PHP Parse error:  syntax error, unexpected ''; ' (T_CONSTANT_ENCAPSED_STRING) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 9
+[28-Oct-2017 04:57:27 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'xxxxxxxxx'@'localhost' (using password: YES) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 85
+[28-Oct-2017 04:59:30 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'xxxxxxxxx'@'localhost' (using password: YES) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 85
+[28-Oct-2017 04:59:34 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'xxxxxxxxx'@'localhost' (using password: YES) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 85
+[28-Oct-2017 05:00:29 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'xxxxxxxxx'@'localhost' (using password: YES) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 85
+[28-Oct-2017 06:36:31 America/Chicago] PHP Parse error:  syntax error, unexpected ''; ' (T_CONSTANT_ENCAPSED_STRING) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 9
+[28-Oct-2017 06:36:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 14
+[28-Oct-2017 07:07:22 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 61
+[28-Oct-2017 07:07:56 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 61
+[28-Oct-2017 07:21:43 America/Chicago] PHP Parse error:  syntax error, unexpected ''; ' (T_CONSTANT_ENCAPSED_STRING) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 9
+[28-Oct-2017 07:21:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 14
+[30-Oct-2017 00:24:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'https' (T_STRING), expecting ')' in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 35
+[06-Nov-2017 04:41:59 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 88
+[06-Nov-2017 04:42:24 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/scripbiz/public_html/demo/jobsite/google_plus/index.php on line 88

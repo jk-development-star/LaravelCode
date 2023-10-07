@@ -1,0 +1,23 @@
+RewriteEngine on
+Options All +Indexes
+RewriteRule ^detail/([^/]*)/([^/]*)/([^/]*) details.php?id=$1&$2&$3 [L,QSA]
+RewriteRule ^list/city/([^/]*)/([^/]*) list.php?cid=$1 [L]
+RewriteRule ^list/category/([^/]*)/([^/]*) list.php?catid=$1&$2 [L]
+RewriteRule ^list/top list.php?top [L,QSA]
+RewriteRule ^list/experience/([^/]*) list.php?yr=$1 [L]
+RewriteRule ^index/([^/]*) index.php [L]
+RewriteRule ^login/([^/]*) login.php [L]
+RewriteRule ^register/([^/]*) register.php [L]
+RewriteRule ^profile/([^/]*) profile.php [L]
+RewriteRule ^profile-pic-chng/([^/]*) profile-pic-chng.php [L]
+RewriteRule ^profile-pass-chng/([^/]*) profile-pass-chng.php [L]
+RewriteRule ^license/([^/]*) license.php [L]
+RewriteRule ^my_reviews/([^/]*) my_reviews.php [L,QSA]
+RewriteRule ^user_reviews/([^/]*) user_reviews.php [L]
+RewriteRule ^my-enquires/([^/]*) my-enquires.php [L,QSA]
+RewriteRule ^user-enquires/([^/]*) user-enquires.php [L,QSA]
+RewriteRule ^company-request/([^/]*) company-request.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php

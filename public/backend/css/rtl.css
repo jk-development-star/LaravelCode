@@ -1,0 +1,50 @@
+#wrapper {
+    direction: rtl!important;
+    text-align: right!important;
+}
+
+.sidebar .nav-item .nav-link {
+    text-align: right;
+}
+.bg-gradient-primary {
+    padding: 0;
+}
+.sidebar .nav-item .nav-link[data-toggle=collapse].collapsed::after {
+    content: '\f104';
+    float: left;
+}
+
+.sidebar .nav-item .nav-link[data-toggle=collapse]::after {
+    float: left;
+}
+.navbar-expand .navbar-nav {
+    margin-left: 0!important;
+    margin-right: auto!important;
+}
+
+.topbar .nav-item .nav-link .mr-2 {
+    margin-right: 0;
+    margin-left: .5rem!important;
+}
+
+.topbar .dropdown .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.dropdown-item {
+    text-align: right;
+}
+
+.scroll-to-top {
+    left: 1rem;
+    right: 0;
+}
+
+.sidebar #sidebarToggle::after {
+    content: '\f105';
+}
+
+.sidebar.toggled #sidebarToggle::after {
+    content: '\f104';
+}
